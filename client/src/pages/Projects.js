@@ -1,15 +1,14 @@
 
-import '../styles/Projects.css';
-import FoodBuzz from '../assets/images/projects/FoodBuzzHompage.png'
+import FoodBuzz from '../assets/images/projects/FoodBuzzHomepage.png'
 import Quiz from '../assets/images/projects/QuizScreenshot.png'
 import Weather from '../assets/images/projects/weather.png'
 import Planner from '../assets/images/projects/WorkDay.png'
 import Book from '../assets/images/projects/bookit.png'
-import Placeholder from '../assets/placeholder.png'
+import Placeholder from '../assets/images/projects/placeholder.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import GitHub from '../images/GitHubMark32px.png'
+import GitHub from '../assets/images/logo/icons8-github-96.png'
 
 const styles = {
   sectionStyles: {
