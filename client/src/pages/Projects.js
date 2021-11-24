@@ -1,4 +1,4 @@
-
+import '../componets/styles/about.css'
 import FoodBuzz from '../assets/images/projects/FoodBuzzHomepage.png'
 import Quiz from '../assets/images/projects/QuizScreenshot.png'
 import Weather from '../assets/images/projects/weather.png'
@@ -27,8 +27,7 @@ function Projects() {
                 <h6>FoodBuzz</h6>
                     <a href="https://dertodd.github.io/Project_one_The_Survivors/" target="_blank" rel="noopener noreferrer"><img src={FoodBuzz} alt='FoodBuzz' className="img-fluid rounded hover-shadow" /></a>
                     <div className='mask' style={{ 
-                        backgroundColor: 'rgba(0, 0, 0, 0.6)', 
-                        padding: '0,0,0,0'
+                        
                         }}>
         <div className='d-flex justify-content-center align-items-center h-100'>
           <p className='text-white mb-0'><a href="https://github.com/DerTodd/Project_one_The_Survivors" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
@@ -38,7 +37,7 @@ function Projects() {
         <div className="row">
             <Container id="samples" style={styles.sectionStyles} className="mb-4 bg-light rounded-3">
                 <Row>
-                    <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid', borderLeft: 8}}>
+                    <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#ff10f0', borderBlockStyle: 'solid', borderLeft: 8}}>
                 <figure className="col">
                     <div>
                     <h6>Horror Quiz</h6>
@@ -54,7 +53,7 @@ function Projects() {
                     </div>
                 </figure>
                 </Col>
-                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
+                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#ff10f0', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
                     <h6>Weather Dashboard</h6>
@@ -72,7 +71,7 @@ function Projects() {
                 </Col>
             </Row>
             <Row>
-                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
+                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#ff10f0', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
                     <h6>Day Planner</h6>
@@ -88,7 +87,7 @@ function Projects() {
                     </div>
                 </figure>
                 </Col>
-                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
+                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#ff10f0', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
                     <h6>BookIt!</h6>
@@ -107,7 +106,7 @@ function Projects() {
                 </Col>
             </Row>
             <Row>
-                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
+                <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#ff10f0', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
                     <h6>Placeholder</h6>

@@ -1,0 +1,29 @@
+.about {
+    background-color: #F2B8A2 ;
+    padding-bottom: 90px;
+    
+}
+
+.img1{
+    width: 20%;
+    border-radius: 50%;   
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+
+#intro {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 20pt;
+   color:#9FA668;
+}
+
+.intro {
+    font-size: 40pt;
+    color: #3D593C;
+}
