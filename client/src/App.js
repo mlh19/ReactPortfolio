@@ -29,12 +29,18 @@ export default function App() {
 
   return (
     <div>
-       <Header />
+      <div> <Header /> </div>
+      <div>
+
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <Footer /> 
+      
       {renderPage()}
+      </div>
+
+      <div><Footer /></div>
+       
     </div>
   );
  

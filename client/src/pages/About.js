@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../assets/Me.png'
+import me from '../assets/images/Me.png'
 export default function About() {
   return (
     <div>
