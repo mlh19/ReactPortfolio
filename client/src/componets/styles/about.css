@@ -1,13 +1,19 @@
-.about {
-    background-color: #F2B8A2 ;
-    padding-bottom: 90px;
+.about { 
+    padding-bottom: 70px;
+    
+    
     
 }
 
 .img1{
-    width: 20%;
-    border-radius: 50%;   
+    width: 30%;
+    border-radius: 60%;
+    display: flex; 
+    margin-top: 13%;
+    
 }
+
+
 
 .center {
     display: block;

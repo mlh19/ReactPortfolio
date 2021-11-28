@@ -1,13 +1,12 @@
 import React from 'react';
 import me from '../assets/images/Me.png'
+import '../componets/styles/about.css'
 
 export default function About() {
   return (
     <div>
       <section class="about">
-      <h1>
-        About Me
-      </h1>
+    
 
       <div className="img-container">
         <img className="img1 center"  src={me} alt="img of myself" />

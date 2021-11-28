@@ -1,10 +1,17 @@
 .form {
   margin: 20px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .form input {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%;
+  /* display: block; */
+  /* margin-top: 5px 50px 5px 50px; */
+  width: 20%;
+  
+}
+
+h1 {
+  text-align: center;
 }

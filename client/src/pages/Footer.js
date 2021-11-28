@@ -8,6 +8,7 @@ import '../componets/styles/footer.css'
 const Footer = () => {
     return (<div>
          <footer>
+           <span>
         <div>
       <ul className= 'icons'>
         <li className='fred'>
@@ -36,6 +37,7 @@ const Footer = () => {
         </li>
       </ul>
     </div>
+    </span>
         </footer> 
                 
     </div>)

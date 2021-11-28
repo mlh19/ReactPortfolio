@@ -9,6 +9,7 @@ import Header from './pages/Header';
 import Footer from './pages/Footer';
 import NavTabs from './pages/NavTabs';
 
+
 export default function App() {
  
   const [currentPage, setCurrentPage] = useState('Home');
@@ -30,14 +31,17 @@ export default function App() {
   return (
     <div>
       <div> <Header /> </div>
-      <div>
+      <div className="nav">
 
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       
+      </div>
+      <div>
       {renderPage()}
       </div>
+      
 
       <div><Footer /></div>
        
