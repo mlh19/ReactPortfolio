@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.fc362615.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.bc390bdd.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.bc390bdd.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.308da00a.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.308da00a.js.map",
+    "static/js/2.f2b8ba17.chunk.js": "/ReactPortfolio/static/js/2.f2b8ba17.chunk.js",
+    "static/js/2.f2b8ba17.chunk.js.map": "/ReactPortfolio/static/js/2.f2b8ba17.chunk.js.map",
+    "static/js/3.d3e95792.chunk.js": "/ReactPortfolio/static/js/3.d3e95792.chunk.js",
+    "static/js/3.d3e95792.chunk.js.map": "/ReactPortfolio/static/js/3.d3e95792.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.fc362615.chunk.css.map": "/ReactPortfolio/static/css/main.fc362615.chunk.css.map",
+    "static/js/2.f2b8ba17.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.f2b8ba17.chunk.js.LICENSE.txt",
+    "static/media/Day.d6bb3fb4.png": "/ReactPortfolio/static/media/Day.d6bb3fb4.png",
+    "static/media/FoodBuzzHomepage.4957a58a.png": "/ReactPortfolio/static/media/FoodBuzzHomepage.4957a58a.png",
+    "static/media/Me.b96ba896.png": "/ReactPortfolio/static/media/Me.b96ba896.png",
+    "static/media/Quiz.c7050be5.png": "/ReactPortfolio/static/media/Quiz.c7050be5.png",
+    "static/media/Resume.8b3de18c.pdf": "/ReactPortfolio/static/media/Resume.8b3de18c.pdf",
+    "static/media/book.5dd51717.png": "/ReactPortfolio/static/media/book.5dd51717.png",
+    "static/media/placeholder.b2fab8cd.png": "/ReactPortfolio/static/media/placeholder.b2fab8cd.png",
+    "static/media/weather.518dbcb7.png": "/ReactPortfolio/static/media/weather.518dbcb7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.308da00a.js",
+    "static/js/2.f2b8ba17.chunk.js",
+    "static/css/main.fc362615.chunk.css",
+    "static/js/main.bc390bdd.chunk.js"
+  ]
+}
