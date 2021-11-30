@@ -38,7 +38,7 @@ export default function App() {
       {/* Here we are calling the renderPage method which will return a component  */}
       
       </div>
-      <div>
+      <div className="container">
       {renderPage()}
       </div>
       
