@@ -6,41 +6,43 @@ import Phone from '../assets/images/logo/phone.png'
 import '../componets/styles/footer.css'
 
 const Footer = () => {
-    return (<div>
-         <footer>
-           <span>
+  return (
+    <footer className="footer mt-auto py-3">
+      <div className="container">
+      <span>
         <div>
-      <ul className= 'icons'>
-        <li className='fred'>
-          <figure class="icon">
-            <a href="https://github.com/mlh19">
-              <img src={Github} alt="GitHub Icon"/></a>
-          </figure>
-        </li>
-        <li>
-          <figure class="icon">
-            <a href="https://www.linkedin.com/in/ml-hoover/">
-              <img src={Linkedin} alt="LinkedIn  Icon"/></a>
-          </figure>
-        </li>
-        <li>
-          <figure class="icon">
-            <a href="https://twitter.com/ml_hoover">
-              <img src={Twitter} alt="Twitter Icon"/></a>
-          </figure>
-        </li>
-        <li>
-          <figure class="icon">
-            <a href="tel:+830-998-6717">
-              <img src={Phone} alt="Phone Icon"/></a>
-          </figure>
-        </li>
-      </ul>
-    </div>
-    </span>
-        </footer> 
-                
-    </div>)
+          <ul className='icons'>
+            <li className='fred'>
+              <figure class="icon">
+                <a href="https://github.com/mlh19">
+                  <img src={Github} alt="GitHub Icon" /></a>
+              </figure>
+            </li>
+            <li>
+              <figure class="icon">
+                <a href="https://www.linkedin.com/in/ml-hoover/">
+                  <img src={Linkedin} alt="LinkedIn  Icon" /></a>
+              </figure>
+            </li>
+            <li>
+              <figure class="icon">
+                <a href="https://twitter.com/ml_hoover">
+                  <img src={Twitter} alt="Twitter Icon" /></a>
+              </figure>
+            </li>
+            <li>
+              <figure class="icon">
+                <a href="tel:+830-998-6717">
+                  <img src={Phone} alt="Phone Icon" /></a>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </span>
+      </div>
+    </footer>
+
+  )
 }
 
 export default Footer
